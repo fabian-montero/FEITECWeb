@@ -1,0 +1,74 @@
+.acronimo {
+  font-size: 85%;
+  margin-bottom: 5%;
+  text-transform: uppercase;
+  text-align: center;
+}
+.texto {
+  font-size: 70%;
+  text-transform: capitalize;
+  font-weight: normal;
+  text-align: center;
+  max-width: 90%;
+  margin: 0 auto 1rem auto;
+}
+.sede {
+  font-size: 85%;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 5%;
+  background-color: #92c84a;
+  border: 2px solid #92c84a;
+  -moz-border-radius: 100px 100px 0 0;
+  -webkit-border-radius: 100px 100px 0 0;
+  border-radius: 100px 100px 0 0;
+  color: white;
+}
+a:link {
+  color: black;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+a:active {
+  color: black;
+}
+.imagen {
+  max-width: width;
+  max-height: width;
+  min-width: width;
+  min-height: width;
+  cursor: pointer;
+  background-color: "#651651";
+  transition: 0.5s;
+}
+
+@-webkit-keyframes flash {
+  0% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes flash {
+  0% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.imagen:hover {
+  opacity: 1;
+  -webkit-animation: flash 1s;
+  animation: flash 1s;
+}
+.shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}

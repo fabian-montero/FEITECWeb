@@ -1,0 +1,23 @@
+.descriptionText{
+    font-size: 11pt ;
+    margin-top: 2pt; 
+    margin-bottom: 2pt;
+}
+
+
+
+.tittleText{
+    margin-bottom: 2pt;
+}
+
+.componentBody{
+    margin-bottom: 20pt;
+}
+
+.marker{
+    background-color: #75B1E1;
+    color: #75B1E1;
+    min-width: 3pt;
+    min-height: 3pt;
+}
+

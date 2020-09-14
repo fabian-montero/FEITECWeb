@@ -1,0 +1,13 @@
+.text {
+  font-size: 90%;
+  white-space: pre;
+  font-weight: bold;
+  margin-left: 0.3rem;
+}
+
+.bar {
+  border-style: solid;
+  border-width: 0 0 0 0.4rem;
+  margin: 0.5rem auto;
+  max-width: 95%;
+}

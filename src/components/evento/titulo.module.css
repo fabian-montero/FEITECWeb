@@ -1,0 +1,12 @@
+.contenedor {
+  text-align: center;
+  font-size: 150%;
+  border-style: solid;
+  border-color: #c5c5c5;
+  border-width: 0 0 0.1rem 0;
+}
+.controller {
+  margin: 0.2rem;
+  cursor: pointer;
+  float: right;
+}

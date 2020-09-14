@@ -1,0 +1,22 @@
+
+.tableHead{
+    background-color: #555555;
+    color: #FFF;
+}
+
+.tableLine{
+    height: 5pt;
+}
+
+.directoryTable{
+    margin: 0  !important;
+    padding: 0;
+}
+
+.dark{
+    background-color: #C4C4C4;
+}
+
+.light{
+    background-color: #FFF;
+}

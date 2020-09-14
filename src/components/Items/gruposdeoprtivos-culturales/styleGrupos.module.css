@@ -1,0 +1,30 @@
+.titulo {
+  position: absolute;
+  /*left: -30rem;*/
+  bottom: 0px;
+  padding: 2%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7); /*147, 149, 152*/
+  text-transform: capitalize;
+  transition: all 0.3s;
+  font-size: 100%;
+}
+
+.imagen {
+  margin-bottom: 0;
+  height: 240px;
+  width: 500px;
+}
+
+.wrapper {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25), 0 8px 30px 0 rgba(0, 0, 0, 0.2);
+}
+
+.wrapper:hover .titulo {
+  left: 0px;
+}

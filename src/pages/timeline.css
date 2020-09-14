@@ -1,0 +1,20 @@
+/* Timeline holder */
+
+.timeline {
+    list-style-type: none;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+ /* Timeline vertical line */
+.timeline:before {
+    content: ' ';
+    background: #55555570;
+    display: inline-block;
+    position: absolute;
+    left: 16px;
+    width: 5px;
+    height: 100%;
+    z-index: 400;
+    border-radius: 1rem;
+}

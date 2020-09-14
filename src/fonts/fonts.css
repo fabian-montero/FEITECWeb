@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Avenir-Roman";
+  src: url("./AvenirLTStd-55-Roman.woff");
+}
+@font-face {
+  font-family: "Avenir-Medium";
+  src: url("./AvenirLTStd-65-Medium.woff");
+}
+
+h1,
+h2,
+li {
+  font-family: "Avenir-Medium";
+}
+
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+  font-family: "Avenir-Roman";
+}

@@ -1,0 +1,33 @@
+.shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25), 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.titulo {
+  font-size: 1.2rem;
+  color: rgb(0, 0, 0);
+}
+
+.texto {
+  font-size: 85%;
+  font-weight: normal;
+  margin-left: 1rem;
+}
+
+.icon {
+  float: right;
+  padding: 0.3rem;
+}
+.download-icon {
+  font-size: 1.2rem;
+  color: #1b3f83;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.download-text {
+  color: #5f79a8;
+}
+
+.download-icon:hover {
+  color: rgb(41, 92, 185);
+}

@@ -1,0 +1,8 @@
+.titulo {
+  text-transform: capitalize;
+  font-size: 110%;
+  color: #16498c;
+  display: inline-block;
+  font-weight: normal;
+  padding-top: 0.1rem;
+}
